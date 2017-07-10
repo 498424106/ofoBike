@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5A32F61F13463D008F2106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A32F51F13463D008F2106 /* AppDelegate.swift */; };
+		DF5A32F81F13463D008F2106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A32F71F13463D008F2106 /* ViewController.swift */; };
+		DF5A32FB1F13463D008F2106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A32F91F13463D008F2106 /* Main.storyboard */; };
+		DF5A32FE1F13463D008F2106 /* ofoBike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF5A32FC1F13463D008F2106 /* ofoBike.xcdatamodeld */; };
+		DF5A33001F13463D008F2106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5A32FF1F13463D008F2106 /* Assets.xcassets */; };
+		DF5A33031F13463D008F2106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A33011F13463D008F2106 /* LaunchScreen.storyboard */; };
+		DF5A330E1F13463D008F2106 /* ofoBikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A330D1F13463D008F2106 /* ofoBikeTests.swift */; };
+		DF5A33191F13463D008F2106 /* ofoBikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A33181F13463D008F2106 /* ofoBikeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF5A330A1F13463D008F2106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5A32EA1F13463D008F2106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5A32F11F13463D008F2106;
+			remoteInfo = ofoBike;
+		};
+		DF5A33151F13463D008F2106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5A32EA1F13463D008F2106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5A32F11F13463D008F2106;
+			remoteInfo = ofoBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF5A32F21F13463D008F2106 /* ofoBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofoBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5A32F51F13463D008F2106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5A32F71F13463D008F2106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF5A32FA1F13463D008F2106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5A32FD1F13463D008F2106 /* ofoBike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ofoBike.xcdatamodel; sourceTree = "<group>"; };
+		DF5A32FF1F13463D008F2106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5A33021F13463D008F2106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5A33041F13463D008F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5A33091F13463D008F2106 /* ofoBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ofoBikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5A330D1F13463D008F2106 /* ofoBikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ofoBikeTests.swift; sourceTree = "<group>"; };
+		DF5A330F1F13463D008F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5A33141F13463D008F2106 /* ofoBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ofoBikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5A33181F13463D008F2106 /* ofoBikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ofoBikeUITests.swift; sourceTree = "<group>"; };
+		DF5A331A1F13463D008F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5A32EF1F13463D008F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5A33061F13463D008F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5A33111F13463D008F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5A32E91F13463D008F2106 = {
+			isa = PBXGroup;
+			children = (
+				DF5A32F41F13463D008F2106 /* ofoBike */,
+				DF5A330C1F13463D008F2106 /* ofoBikeTests */,
+				DF5A33171F13463D008F2106 /* ofoBikeUITests */,
+				DF5A32F31F13463D008F2106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5A32F31F13463D008F2106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A32F21F13463D008F2106 /* ofoBike.app */,
+				DF5A33091F13463D008F2106 /* ofoBikeTests.xctest */,
+				DF5A33141F13463D008F2106 /* ofoBikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5A32F41F13463D008F2106 /* ofoBike */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A32F51F13463D008F2106 /* AppDelegate.swift */,
+				DF5A32F71F13463D008F2106 /* ViewController.swift */,
+				DF5A32F91F13463D008F2106 /* Main.storyboard */,
+				DF5A32FF1F13463D008F2106 /* Assets.xcassets */,
+				DF5A33011F13463D008F2106 /* LaunchScreen.storyboard */,
+				DF5A33041F13463D008F2106 /* Info.plist */,
+				DF5A32FC1F13463D008F2106 /* ofoBike.xcdatamodeld */,
+			);
+			path = ofoBike;
+			sourceTree = "<group>";
+		};
+		DF5A330C1F13463D008F2106 /* ofoBikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A330D1F13463D008F2106 /* ofoBikeTests.swift */,
+				DF5A330F1F13463D008F2106 /* Info.plist */,
+			);
+			path = ofoBikeTests;
+			sourceTree = "<group>";
+		};
+		DF5A33171F13463D008F2106 /* ofoBikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A33181F13463D008F2106 /* ofoBikeUITests.swift */,
+				DF5A331A1F13463D008F2106 /* Info.plist */,
+			);
+			path = ofoBikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5A32F11F13463D008F2106 /* ofoBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5A331D1F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBike" */;
+			buildPhases = (
+				DF5A32EE1F13463D008F2106 /* Sources */,
+				DF5A32EF1F13463D008F2106 /* Frameworks */,
+				DF5A32F01F13463D008F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ofoBike;
+			productName = ofoBike;
+			productReference = DF5A32F21F13463D008F2106 /* ofoBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF5A33081F13463D008F2106 /* ofoBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5A33201F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeTests" */;
+			buildPhases = (
+				DF5A33051F13463D008F2106 /* Sources */,
+				DF5A33061F13463D008F2106 /* Frameworks */,
+				DF5A33071F13463D008F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5A330B1F13463D008F2106 /* PBXTargetDependency */,
+			);
+			name = ofoBikeTests;
+			productName = ofoBikeTests;
+			productReference = DF5A33091F13463D008F2106 /* ofoBikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF5A33131F13463D008F2106 /* ofoBikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5A33231F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeUITests" */;
+			buildPhases = (
+				DF5A33101F13463D008F2106 /* Sources */,
+				DF5A33111F13463D008F2106 /* Frameworks */,
+				DF5A33121F13463D008F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5A33161F13463D008F2106 /* PBXTargetDependency */,
+			);
+			name = ofoBikeUITests;
+			productName = ofoBikeUITests;
+			productReference = DF5A33141F13463D008F2106 /* ofoBikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5A32EA1F13463D008F2106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "翟帅";
+				TargetAttributes = {
+					DF5A32F11F13463D008F2106 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DF5A33081F13463D008F2106 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF5A32F11F13463D008F2106;
+					};
+					DF5A33131F13463D008F2106 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF5A32F11F13463D008F2106;
+					};
+				};
+			};
+			buildConfigurationList = DF5A32ED1F13463D008F2106 /* Build configuration list for PBXProject "ofoBike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5A32E91F13463D008F2106;
+			productRefGroup = DF5A32F31F13463D008F2106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5A32F11F13463D008F2106 /* ofoBike */,
+				DF5A33081F13463D008F2106 /* ofoBikeTests */,
+				DF5A33131F13463D008F2106 /* ofoBikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5A32F01F13463D008F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5A33031F13463D008F2106 /* LaunchScreen.storyboard in Resources */,
+				DF5A33001F13463D008F2106 /* Assets.xcassets in Resources */,
+				DF5A32FB1F13463D008F2106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5A33071F13463D008F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5A33121F13463D008F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5A32EE1F13463D008F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5A32F81F13463D008F2106 /* ViewController.swift in Sources */,
+				DF5A32FE1F13463D008F2106 /* ofoBike.xcdatamodeld in Sources */,
+				DF5A32F61F13463D008F2106 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5A33051F13463D008F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5A330E1F13463D008F2106 /* ofoBikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5A33101F13463D008F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5A33191F13463D008F2106 /* ofoBikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF5A330B1F13463D008F2106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5A32F11F13463D008F2106 /* ofoBike */;
+			targetProxy = DF5A330A1F13463D008F2106 /* PBXContainerItemProxy */;
+		};
+		DF5A33161F13463D008F2106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5A32F11F13463D008F2106 /* ofoBike */;
+			targetProxy = DF5A33151F13463D008F2106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF5A32F91F13463D008F2106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5A32FA1F13463D008F2106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5A33011F13463D008F2106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5A33021F13463D008F2106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5A331B1F13463D008F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF5A331C1F13463D008F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5A331E1F13463D008F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ofoBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF5A331F1F13463D008F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ofoBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DF5A33211F13463D008F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ofoBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ofoBike.app/ofoBike";
+			};
+			name = Debug;
+		};
+		DF5A33221F13463D008F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ofoBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ofoBike.app/ofoBike";
+			};
+			name = Release;
+		};
+		DF5A33241F13463D008F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ofoBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ofoBike;
+			};
+			name = Debug;
+		};
+		DF5A33251F13463D008F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ofoBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ofoBike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5A32ED1F13463D008F2106 /* Build configuration list for PBXProject "ofoBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A331B1F13463D008F2106 /* Debug */,
+				DF5A331C1F13463D008F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5A331D1F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A331E1F13463D008F2106 /* Debug */,
+				DF5A331F1F13463D008F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF5A33201F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A33211F13463D008F2106 /* Debug */,
+				DF5A33221F13463D008F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF5A33231F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A33241F13463D008F2106 /* Debug */,
+				DF5A33251F13463D008F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF5A32FC1F13463D008F2106 /* ofoBike.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF5A32FD1F13463D008F2106 /* ofoBike.xcdatamodel */,
+			);
+			currentVersion = DF5A32FD1F13463D008F2106 /* ofoBike.xcdatamodel */;
+			path = ofoBike.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF5A32EA1F13463D008F2106 /* Project object */;
+}
