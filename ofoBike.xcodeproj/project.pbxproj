@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40E8B1F5323DC165F3877025 /* Pods_ofoBikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6022CE29D4CE661D510FA5 /* Pods_ofoBikeTests.framework */; };
+		AC508882B67AAB92E119138A /* Pods_ofoBikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964ED7C4CEE7815E35EC277C /* Pods_ofoBikeUITests.framework */; };
+		B2EE8D9BDC2ECA30F3C4D224 /* Pods_ofoBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453283177059A613D597C49E /* Pods_ofoBike.framework */; };
+		DF0550051F18F6D8003EDE05 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0550041F18F6D8003EDE05 /* MenuController.swift */; };
+		DF05500F1F1A7DF8003EDE05 /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05500E1F1A7DF8003EDE05 /* MyPinAnnotation.swift */; };
+		DF1216081F1BC78C00A138C9 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1216071F1BC78C00A138C9 /* ScanViewController.swift */; };
+		DF12160A1F1C83EB00A138C9 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF1216091F1C83EB00A138C9 /* CodeScan.bundle */; };
+		DF12160C1F1D1D0100A138C9 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12160B1F1D1D0100A138C9 /* InputController.swift */; };
+		DF12160E1F1D1E9100A138C9 /* ColorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12160D1F1D1E9100A138C9 /* ColorHeader.swift */; };
+		DF1217211F1FACCC00A138C9 /* UIViewHeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1217201F1FACCC00A138C9 /* UIViewHeather.swift */; };
+		DF1217231F1FB7B700A138C9 /* ShowPassCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1217221F1FB7B700A138C9 /* ShowPassCodeViewController.swift */; };
+		DF1217261F2072FF00A138C9 /* 上车前_LH.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DF1217251F2072FF00A138C9 /* 上车前_LH.m4a */; };
+		DF12174B1F23266D00A138C9 /* NetWorkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12174A1F23266D00A138C9 /* NetWorkHelper.swift */; };
+		DF12174D1F235D9100A138C9 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12174C1F235D9100A138C9 /* ErrorViewController.swift */; };
+		DF1217661F24FCE300A138C9 /* LaunchADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1217651F24FCE300A138C9 /* LaunchADView.swift */; };
+		DF1217691F24FE6500A138C9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1217671F24FE6500A138C9 /* WebView.swift */; };
+		DF12176A1F24FE6500A138C9 /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1217681F24FE6500A138C9 /* WebView.xib */; };
+		DF2D45D11F27A60800074DE3 /* SureMinionsEyesView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2D45CE1F27A60800074DE3 /* SureMinionsEyesView.m */; };
+		DF2D45D21F27A60800074DE3 /* SureMinionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2D45D01F27A60800074DE3 /* SureMinionsView.m */; };
 		DF5A32F61F13463D008F2106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A32F51F13463D008F2106 /* AppDelegate.swift */; };
 		DF5A32F81F13463D008F2106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A32F71F13463D008F2106 /* ViewController.swift */; };
 		DF5A32FB1F13463D008F2106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A32F91F13463D008F2106 /* Main.storyboard */; };
@@ -15,6 +34,8 @@
 		DF5A33031F13463D008F2106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5A33011F13463D008F2106 /* LaunchScreen.storyboard */; };
 		DF5A330E1F13463D008F2106 /* ofoBikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A330D1F13463D008F2106 /* ofoBikeTests.swift */; };
 		DF5A33191F13463D008F2106 /* ofoBikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A33181F13463D008F2106 /* ofoBikeUITests.swift */; };
+		DF5A33271F134743008F2106 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5A33261F134743008F2106 /* Images.xcassets */; };
+		DFEBD8BD1F13D5210064131B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEBD8BC1F13D5210064131B /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C87B8FB597EF031115F298 /* Pods-ofoBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBike.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBike/Pods-ofoBike.release.xcconfig"; sourceTree = "<group>"; };
+		1674576220BCF9AB287457C3 /* Pods-ofoBikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBikeTests/Pods-ofoBikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27E05E0736131EA3784BA29C /* Pods-ofoBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBike/Pods-ofoBike.debug.xcconfig"; sourceTree = "<group>"; };
+		453283177059A613D597C49E /* Pods_ofoBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ofoBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA4586D8FBE73395487940D /* Pods-ofoBikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBikeUITests/Pods-ofoBikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		964ED7C4CEE7815E35EC277C /* Pods_ofoBikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ofoBikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6022CE29D4CE661D510FA5 /* Pods_ofoBikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ofoBikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB5EB21E8AE42F2CDF9423C /* Pods-ofoBikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBikeUITests/Pods-ofoBikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0550041F18F6D8003EDE05 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		DF0550061F193A93003EDE05 /* ofoBike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ofoBike-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF05500E1F1A7DF8003EDE05 /* MyPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
+		DF1216071F1BC78C00A138C9 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		DF1216091F1C83EB00A138C9 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		DF12160B1F1D1D0100A138C9 /* InputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		DF12160D1F1D1E9100A138C9 /* ColorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHeader.swift; sourceTree = "<group>"; };
+		DF1217201F1FACCC00A138C9 /* UIViewHeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHeather.swift; sourceTree = "<group>"; };
+		DF1217221F1FB7B700A138C9 /* ShowPassCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPassCodeViewController.swift; sourceTree = "<group>"; };
+		DF1217251F2072FF00A138C9 /* 上车前_LH.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "上车前_LH.m4a"; sourceTree = "<group>"; };
+		DF12174A1F23266D00A138C9 /* NetWorkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkHelper.swift; sourceTree = "<group>"; };
+		DF12174C1F235D9100A138C9 /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		DF1217651F24FCE300A138C9 /* LaunchADView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchADView.swift; sourceTree = "<group>"; };
+		DF1217671F24FE6500A138C9 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		DF1217681F24FE6500A138C9 /* WebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebView.xib; sourceTree = "<group>"; };
+		DF2D45CD1F27A60800074DE3 /* SureMinionsEyesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SureMinionsEyesView.h; sourceTree = "<group>"; };
+		DF2D45CE1F27A60800074DE3 /* SureMinionsEyesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SureMinionsEyesView.m; sourceTree = "<group>"; };
+		DF2D45CF1F27A60800074DE3 /* SureMinionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SureMinionsView.h; sourceTree = "<group>"; };
+		DF2D45D01F27A60800074DE3 /* SureMinionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SureMinionsView.m; sourceTree = "<group>"; };
 		DF5A32F21F13463D008F2106 /* ofoBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofoBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5A32F51F13463D008F2106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5A32F71F13463D008F2106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +97,9 @@
 		DF5A33141F13463D008F2106 /* ofoBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ofoBikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5A33181F13463D008F2106 /* ofoBikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ofoBikeUITests.swift; sourceTree = "<group>"; };
 		DF5A331A1F13463D008F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5A33261F134743008F2106 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFEBD8BC1F13D5210064131B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F2AAD10B5CDED55F297614DB /* Pods-ofoBikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBikeTests/Pods-ofoBikeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EE8D9BDC2ECA30F3C4D224 /* Pods_ofoBike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E8B1F5323DC165F3877025 /* Pods_ofoBikeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +123,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC508882B67AAB92E119138A /* Pods_ofoBikeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F3B3338556BEC887B088ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27E05E0736131EA3784BA29C /* Pods-ofoBike.debug.xcconfig */,
+				00C87B8FB597EF031115F298 /* Pods-ofoBike.release.xcconfig */,
+				1674576220BCF9AB287457C3 /* Pods-ofoBikeTests.debug.xcconfig */,
+				F2AAD10B5CDED55F297614DB /* Pods-ofoBikeTests.release.xcconfig */,
+				4DA4586D8FBE73395487940D /* Pods-ofoBikeUITests.debug.xcconfig */,
+				DEB5EB21E8AE42F2CDF9423C /* Pods-ofoBikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACD2B7C1FFE488B6D5A22C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				453283177059A613D597C49E /* Pods_ofoBike.framework */,
+				DC6022CE29D4CE661D510FA5 /* Pods_ofoBikeTests.framework */,
+				964ED7C4CEE7815E35EC277C /* Pods_ofoBikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF1217241F2072E700A138C9 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				DF1217251F2072FF00A138C9 /* 上车前_LH.m4a */,
+			);
+			name = Voice;
+			sourceTree = "<group>";
+		};
+		DF2D45CC1F27A5FA00074DE3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D45CD1F27A60800074DE3 /* SureMinionsEyesView.h */,
+				DF2D45CE1F27A60800074DE3 /* SureMinionsEyesView.m */,
+				DF2D45CF1F27A60800074DE3 /* SureMinionsView.h */,
+				DF2D45D01F27A60800074DE3 /* SureMinionsView.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		DF5A32E91F13463D008F2106 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +179,8 @@
 				DF5A330C1F13463D008F2106 /* ofoBikeTests */,
 				DF5A33171F13463D008F2106 /* ofoBikeUITests */,
 				DF5A32F31F13463D008F2106 /* Products */,
+				10F3B3338556BEC887B088ED /* Pods */,
+				ACD2B7C1FFE488B6D5A22C71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +197,31 @@
 		DF5A32F41F13463D008F2106 /* ofoBike */ = {
 			isa = PBXGroup;
 			children = (
+				DF2D45CC1F27A5FA00074DE3 /* New Group */,
+				DF1217651F24FCE300A138C9 /* LaunchADView.swift */,
+				DF1217671F24FE6500A138C9 /* WebView.swift */,
+				DF1217681F24FE6500A138C9 /* WebView.xib */,
+				DF1217241F2072E700A138C9 /* Voice */,
 				DF5A32F51F13463D008F2106 /* AppDelegate.swift */,
 				DF5A32F71F13463D008F2106 /* ViewController.swift */,
+				DF1216071F1BC78C00A138C9 /* ScanViewController.swift */,
+				DF12160B1F1D1D0100A138C9 /* InputController.swift */,
+				DF1217221F1FB7B700A138C9 /* ShowPassCodeViewController.swift */,
+				DF12174C1F235D9100A138C9 /* ErrorViewController.swift */,
+				DF1217201F1FACCC00A138C9 /* UIViewHeather.swift */,
+				DF12174A1F23266D00A138C9 /* NetWorkHelper.swift */,
+				DF12160D1F1D1E9100A138C9 /* ColorHeader.swift */,
+				DF05500E1F1A7DF8003EDE05 /* MyPinAnnotation.swift */,
+				DFEBD8BC1F13D5210064131B /* WebViewController.swift */,
+				DF0550041F18F6D8003EDE05 /* MenuController.swift */,
 				DF5A32F91F13463D008F2106 /* Main.storyboard */,
 				DF5A32FF1F13463D008F2106 /* Assets.xcassets */,
 				DF5A33011F13463D008F2106 /* LaunchScreen.storyboard */,
 				DF5A33041F13463D008F2106 /* Info.plist */,
 				DF5A32FC1F13463D008F2106 /* ofoBike.xcdatamodeld */,
+				DF5A33261F134743008F2106 /* Images.xcassets */,
+				DF0550061F193A93003EDE05 /* ofoBike-Bridging-Header.h */,
+				DF1216091F1C83EB00A138C9 /* CodeScan.bundle */,
 			);
 			path = ofoBike;
 			sourceTree = "<group>";
@@ -135,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5A331D1F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBike" */;
 			buildPhases = (
+				5EF7381B785806F505E96483 /* [CP] Check Pods Manifest.lock */,
 				DF5A32EE1F13463D008F2106 /* Sources */,
 				DF5A32EF1F13463D008F2106 /* Frameworks */,
 				DF5A32F01F13463D008F2106 /* Resources */,
+				449E279911071B60837DFA67 /* [CP] Embed Pods Frameworks */,
+				BFD4AE87E900C5E5B2B7F637 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5A33201F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeTests" */;
 			buildPhases = (
+				66B20DF50FE5A4619E0A442E /* [CP] Check Pods Manifest.lock */,
 				DF5A33051F13463D008F2106 /* Sources */,
 				DF5A33061F13463D008F2106 /* Frameworks */,
 				DF5A33071F13463D008F2106 /* Resources */,
+				DE0BFACC98765390322DC456 /* [CP] Embed Pods Frameworks */,
+				0F9DB2832A00C6417B263EFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5A33231F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeUITests" */;
 			buildPhases = (
+				6A39451ABD3AC1A6543D2FA2 /* [CP] Check Pods Manifest.lock */,
 				DF5A33101F13463D008F2106 /* Sources */,
 				DF5A33111F13463D008F2106 /* Frameworks */,
 				DF5A33121F13463D008F2106 /* Resources */,
+				627F5861C3F30168CF5825C6 /* [CP] Embed Pods Frameworks */,
+				F042E781FBC532D3AB514CFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +321,14 @@
 				TargetAttributes = {
 					DF5A32F11F13463D008F2106 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V55D47E8CR;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					DF5A33081F13463D008F2106 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -235,7 +367,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF12160A1F1C83EB00A138C9 /* CodeScan.bundle in Resources */,
 				DF5A33031F13463D008F2106 /* LaunchScreen.storyboard in Resources */,
+				DF1217261F2072FF00A138C9 /* 上车前_LH.m4a in Resources */,
+				DF12176A1F24FE6500A138C9 /* WebView.xib in Resources */,
+				DF5A33271F134743008F2106 /* Images.xcassets in Resources */,
 				DF5A33001F13463D008F2106 /* Assets.xcassets in Resources */,
 				DF5A32FB1F13463D008F2106 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +393,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F9DB2832A00C6417B263EFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofoBikeTests/Pods-ofoBikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		449E279911071B60837DFA67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofoBike/Pods-ofoBike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF7381B785806F505E96483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		627F5861C3F30168CF5825C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofoBikeUITests/Pods-ofoBikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66B20DF50FE5A4619E0A442E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A39451ABD3AC1A6543D2FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD4AE87E900C5E5B2B7F637 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofoBike/Pods-ofoBike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0BFACC98765390322DC456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofoBikeTests/Pods-ofoBikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F042E781FBC532D3AB514CFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofoBikeUITests/Pods-ofoBikeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF5A32EE1F13463D008F2106 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1217661F24FCE300A138C9 /* LaunchADView.swift in Sources */,
+				DF05500F1F1A7DF8003EDE05 /* MyPinAnnotation.swift in Sources */,
+				DF1216081F1BC78C00A138C9 /* ScanViewController.swift in Sources */,
+				DF12174D1F235D9100A138C9 /* ErrorViewController.swift in Sources */,
+				DF0550051F18F6D8003EDE05 /* MenuController.swift in Sources */,
 				DF5A32F81F13463D008F2106 /* ViewController.swift in Sources */,
+				DF1217691F24FE6500A138C9 /* WebView.swift in Sources */,
+				DF12160E1F1D1E9100A138C9 /* ColorHeader.swift in Sources */,
+				DF1217231F1FB7B700A138C9 /* ShowPassCodeViewController.swift in Sources */,
+				DF12160C1F1D1D0100A138C9 /* InputController.swift in Sources */,
 				DF5A32FE1F13463D008F2106 /* ofoBike.xcdatamodeld in Sources */,
+				DF12174B1F23266D00A138C9 /* NetWorkHelper.swift in Sources */,
 				DF5A32F61F13463D008F2106 /* AppDelegate.swift in Sources */,
+				DF2D45D21F27A60800074DE3 /* SureMinionsView.m in Sources */,
+				DF2D45D11F27A60800074DE3 /* SureMinionsEyesView.m in Sources */,
+				DF1217211F1FACCC00A138C9 /* UIViewHeather.swift in Sources */,
+				DFEBD8BD1F13D5210064131B /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,30 +704,50 @@
 		};
 		DF5A331E1F13463D008F2106 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E05E0736131EA3784BA29C /* Pods-ofoBike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = V55D47E8CR;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ofoBike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ofoBike/ofoBike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DF5A331F1F13463D008F2106 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C87B8FB597EF031115F298 /* Pods-ofoBike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = V55D47E8CR;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ofoBike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaishuai.ofoBike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ofoBike/ofoBike-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DF5A33211F13463D008F2106 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1674576220BCF9AB287457C3 /* Pods-ofoBikeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +762,7 @@
 		};
 		DF5A33221F13463D008F2106 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AAD10B5CDED55F297614DB /* Pods-ofoBikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +777,7 @@
 		};
 		DF5A33241F13463D008F2106 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA4586D8FBE73395487940D /* Pods-ofoBikeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ofoBikeUITests/Info.plist;
@@ -481,6 +791,7 @@
 		};
 		DF5A33251F13463D008F2106 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB5EB21E8AE42F2CDF9423C /* Pods-ofoBikeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ofoBikeUITests/Info.plist;
@@ -511,6 +822,7 @@
 				DF5A331F1F13463D008F2106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF5A33201F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +831,7 @@
 				DF5A33221F13463D008F2106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF5A33231F13463D008F2106 /* Build configuration list for PBXNativeTarget "ofoBikeUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +840,7 @@
 				DF5A33251F13463D008F2106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

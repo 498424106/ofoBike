@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import AVOSCloud
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        AMapServices.shared().apiKey = "448ce84e49e5894c1169c5d95ced6087"
+        AMapServices.shared().enableHTTPS = true   //允许高德地图 htpps 协议
+
+        //leancloud服务器
+        AVOSCloud.setApplicationId("7hEAlSOesRbAWOiyN9qcqICx-gzGzoHsz",  clientKey:"KGYBHuAM2YAhvfYEOWdxqOYf")
+
+        
+        
+        
+        
+        
         return true
     }
 
@@ -46,6 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
+    @available(iOS 10.0, *)
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
